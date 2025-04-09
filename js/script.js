@@ -3,8 +3,8 @@ function file(){
 
   function showText(){
     var text = document.getElementById('entryinput');
-    
-    alert("Bryan Guevara: " + );
+    document.getElementById('textoutput').innerHTML = text.value;
+    alert("Bryan Guevara: " + text.value);
   }
 
   button.addEventListener('click', showText);
